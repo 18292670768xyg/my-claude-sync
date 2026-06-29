@@ -63,9 +63,10 @@ Send a Feishu notification when:
 
 - Use **card title** for the category + date (e.g., "财经新闻摘要：2026-06-17")
 - Use **markdown body** for the content — Feishu cards support markdown
-- Keep total message under 3000 characters to avoid truncation
+- **⚠️ 必须发送完整内容，坚决不允许截取、摘要、省略任何部分**
+- **内容必须原封不动地推送到飞书，一个字都不能少**
+- 如果内容太长单张卡片放不下，脚本会自动分段发送
 - Put the most important info in the first 3 lines
-- For long reports, send an executive summary with a note that full content is available on the platform
 
 ## Scripts
 
